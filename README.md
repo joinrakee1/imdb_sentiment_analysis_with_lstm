@@ -9,6 +9,9 @@ This project was completed as part of a **peer-graded assignment** for the **Int
 **Included in this repository:**
 - `imdb_sentiment_analysis_lstm.ipynb`: Jupyter notebook containing exploratory data analysis, text preprocessing, LSTM model building, training, evaluation, and performance comparison.
 - `imdb_sentiment_analysis_lstm.pdf`: PDF version of the full notebook run including EDA, model training, evaluation, and final results — ideal for quick review without setting up the environment.
+- `baseline_lstm_val_predictions.csv`: CSV file with validation set predictions (labels and probabilities) from the Baseline LSTM model.
+- `bidirectional_lstm_val_predictions.csv`: CSV file with validation set predictions from the Bidirectional LSTM model.
+- `stacked_lstm_val_predictions.csv`: CSV file with validation set predictions from the Stacked LSTM model.
 
 ## Models
 
