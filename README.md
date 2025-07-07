@@ -22,9 +22,9 @@ Three LSTM-based models were trained and compared:
 
 ## Results
 
-The **Bidirectional LSTM** model achieved the highest ROC AUC (~0.927), demonstrating superior ability to capture contextual information and distinguish sentiment. The **Baseline LSTM** closely followed, while the **Stacked LSTM** showed higher precision but lower recall and F1 score, suggesting a more conservative prediction behavior.
+The **Baseline LSTM** model achieved the highest ROC AUC (~0.930), demonstrating excellent overall classification performance despite being the simplest architecture. The **Bidirectional LSTM** showed the highest recall and F1 score, indicating strong ability to correctly identify positive sentiment cases by leveraging context from both directions in the text. The **Stacked LSTM** exhibited the highest precision but had lower recall and F1 scores, suggesting a more conservative prediction behavior.
 
-Validation curves, training logs, and performance comparisons are included in the notebook for detailed analysis.
+Validation curves, training logs, and detailed performance comparisons are included in the notebook for further analysis.
 
 ## Requirements
 
