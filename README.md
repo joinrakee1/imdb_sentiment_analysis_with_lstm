@@ -39,4 +39,4 @@ Validation curves, training logs, and detailed performance comparisons are inclu
 Install dependencies with:
 
 ```bash
-pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
+pip install pandas scikit-learn matplotlib seaborn numpy 
